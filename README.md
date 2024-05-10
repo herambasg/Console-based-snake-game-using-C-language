@@ -23,3 +23,22 @@ Moreover, the project isn't just about creating a game; it's about understanding
 10. Write the conditions for the snake eating the fruit and generation of a new fruit (using the goto statement).
 11. Update the score and increase the length of the snake every time the snake eats a fruit.
 12. End the game when the snake hits itself or the boundary walls game window.
+
+## Features
+This is a simple implementation of the classic Snake game in C language. The game runs in the console and allows players to control a snake to eat fruits and grow longer while avoiding collisions with the walls and itself.
+
+- Simple console-based Snake game.
+- Controls: W (Up), A (Left), S (Down), D (Right).
+- Snake grows longer when eating fruits.
+- Game over when the snake collides with the walls or itself.
+- Score tracking.
+
+## How to Play
+
+1. Clone the repository to your local machine.
+2. Compile the source code using a C compiler (e.g., GCC).
+3. Run the compiled executable.
+4. Use the W, A, S, and D keys to control the snake.
+5. Try to eat as many fruits as possible without colliding with the walls or yourself.
+
+## Gameplay Screenshots
