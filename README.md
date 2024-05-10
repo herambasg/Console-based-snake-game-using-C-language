@@ -40,6 +40,11 @@ This is a simple implementation of the classic Snake game in C language. The gam
 3. Run the compiled executable.
 4. Use the W, A, S, and D keys to control the snake.
 5. Try to eat as many fruits as possible without colliding with the walls or yourself.
+6. The game ends when the snake collides with the walls or itself.
+7. Your score will be displayed at the end of the game.
+
+## Adjusting Difficulty
+To increase the difficulty level, you can reduce the sleep time in the draw function. This will make the game run faster, providing a more challenging experience.
 
 ## Gameplay Screenshots
 <img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/6001f0ce-5bbf-48b7-83b1-99a4535ec937" width="400" height="400"> <img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/0e322aef-8a18-4d60-becc-65f317f8d892" width="400" height="400">
