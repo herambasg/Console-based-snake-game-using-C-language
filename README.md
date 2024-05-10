@@ -42,8 +42,8 @@ This is a simple implementation of the classic Snake game in C language. The gam
 5. Try to eat as many fruits as possible without colliding with the walls or yourself.
 
 ## Gameplay Screenshots
-<img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/6001f0ce-5bbf-48b7-83b1-99a4535ec937" width="500" height="500"> <img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/0e322aef-8a18-4d60-becc-65f317f8d892" width="500" height="500">
-<img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/c6040aab-db89-4721-b0d8-dfa492566c4c" width="500" height="500"> 
+<img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/6001f0ce-5bbf-48b7-83b1-99a4535ec937" width="400" height="400"> <img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/0e322aef-8a18-4d60-becc-65f317f8d892" width="400" height="400">
+<img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/c6040aab-db89-4721-b0d8-dfa492566c4c" width="400" height="400"> 
 
 ## Contribution
 Contributions are welcome! If you have any ideas for improvements or find any issues, feel free to open an issue or create a pull request.
