@@ -9,7 +9,7 @@ But don't let its simplicity fool you. The project is ripe for customization and
 
 Moreover, the project isn't just about creating a game; it's about understanding the process behind game development. By building this Snake game in C, participants gain valuable insights into game design, user input handling, and debugging techniques. It's a holistic learning experience that combines theory with practical application, empowering programmers to tackle more ambitious projects down the line.
 
-# Algorithm of the Program
+## Algorithm of the Program
 
 1. Initialize the setup function to set the position of the snake and fruit within the boundary of square window.
 2. Initialize the draw function to draw a square window with a border to identify the game area and a snake and a fruit consisting of one cell.
@@ -42,3 +42,5 @@ This is a simple implementation of the classic Snake game in C language. The gam
 5. Try to eat as many fruits as possible without colliding with the walls or yourself.
 
 ## Gameplay Screenshots
+<img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/6001f0ce-5bbf-48b7-83b1-99a4535ec937" width="500" height="500"> <img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/0e322aef-8a18-4d60-becc-65f317f8d892" width="500" height="500">
+<img src="https://github.com/herambasg/Console-based-snake-game-using-C-language/assets/115571749/c6040aab-db89-4721-b0d8-dfa492566c4c" width="500" height="500"> 
