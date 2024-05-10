@@ -52,3 +52,5 @@ To increase the difficulty level, you can reduce the sleep time in the draw func
 
 ## Contribution
 Contributions are welcome! If you have any ideas for improvements or find any issues, feel free to open an issue or create a pull request.
+
+## Enjoy the game!
