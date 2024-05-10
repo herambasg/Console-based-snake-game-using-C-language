@@ -1,7 +1,7 @@
 #include <stdio.h>		//header file that helps us to perform input and output operations
 #include <conio.h>		//header file that provides console input and output
 #include <stdlib.h>		//header file that provides rand function
-#include <windows.h>	//header file that provides access to Windows API functions and data types
+#include <windows.h>		//header file that provides access to Windows API functions and data types
 
 void setup(); 	//User defined function to initialize the game setup including snake and fruit positions within the game boundary
 void draw(); 	//User defined function to draw the game window, snake, and fruit
@@ -9,13 +9,13 @@ void input(); 	//User defined function to handle user input from the keyboard
 void logic(); 	//User defined function to control the game logic including snake movement and collision detection
 
 int height = 20, width = 40;	//Variables representing the height and width of the game window
-int gameover = 0; 				//Variable indicating whether the game is over (0 for not over, 1 for game over)
-int x, y; 						//Variables representing the current position of the snake
-int fruitx, fruity;				//Variables representing the position of the fruit
-int score = 0; 					//Variable representing the player's score
-int flag; 						//Variable to store user input from the keyboard
+int gameover = 0; 		//Variable indicating whether the game is over (0 for not over, 1 for game over)
+int x, y; 			//Variables representing the current position of the snake
+int fruitx, fruity;		//Variables representing the position of the fruit
+int score = 0; 			//Variable representing the player's score
+int flag; 			//Variable to store user input from the keyboard
 int tailX[100], tailY[100]; 	//Arrays to store the coordinates of the snake's tail
-int counttail = 0; 				//Variable representing the length of the snake's tail
+int counttail = 0; 		//Variable representing the length of the snake's tail
 
 
 int main() {
@@ -30,10 +30,11 @@ int main() {
         input();
         logic();
 
+//For loops used to introduce delay, controlling the speed of the game
         for (m = 0; m < 10000; m++) {
             for (n = 0; n < 2000; n++) {
             }
-        }		//For loops used to introduce delay, controlling the speed of the game
+        }		
     }
 
     printf("GAME OVER\n");
@@ -73,7 +74,7 @@ void draw() {
 
     int i, j, k;  //integer variables for height and width of game window and tail length of snake
     
-	//for loop draw a square window with border to identify game area
+//for loop draw a square window with border to identify game area
 	for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
             if (i == 0 || j == 0 || i == height - 1 || j == width - 1)
